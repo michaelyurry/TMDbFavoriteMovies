@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutBottomSheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="0dp"
+    app:layout_behavior="@string/bottom_sheet_behavior">
+
+    <TextView
+        android:id="@+id/popular_movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        android:drawablePadding="16dp"
+        android:textColor="@color/white"
+        android:text="Popular"
+        android:textSize="16sp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/upcoming_movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        android:drawablePadding="16dp"
+        android:textColor="@color/white"
+        android:text="Upcoming"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/popular_movie" />
+
+    <TextView
+        android:id="@+id/top_rated_movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        android:drawablePadding="16dp"
+        android:textColor="@color/white"
+        android:text="Top Rated"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/upcoming_movie" />
+
+    <TextView
+        android:id="@+id/now_playing_movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        android:drawablePadding="16dp"
+        android:textColor="@color/white"
+        android:text="Now Playing"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/top_rated_movie" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

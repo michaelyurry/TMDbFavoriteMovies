@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TMDbFavoriteMovies</string>
+    <string name="category">Category</string>
+    <string name="popular">Popular</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="favorite_movies">Favorite Movies</string>
+    <string name="empty_movie">Empty Movie</string>
+    <string name="empty_review">Empty Review</string>
+    <string name="movie_review">\u0020Reviews</string>
+    <string name="written_by">Written by:\u0020</string>
+</resources>
